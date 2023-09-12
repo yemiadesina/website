@@ -21,7 +21,8 @@ A world where construction materials are sustainable, smart, and contribute to a
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+At the Low Carbon, Sustainable &amp; Smart Construction Material Lab, we believe that a sustainable future
+is built on the foundations of innovative research.
 
 {%
   include button.html
@@ -44,7 +45,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+In our pursuit to revolutionize the construction industry with sustainable and smart materials, we
+spearhead a range of projects that stand testament to our commitment towards innovation and
+environmental conservation.
 
 {%
   include button.html
@@ -64,28 +67,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   title="Our Projects"
   flip=true
   style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
   text=text
 %}
