@@ -1,9 +1,19 @@
 ---
 ---
 
-# yemiadesina's Website
+## Welcome to MaterialX Innovation Hub
+Welcome to our Research &amp; Development Lab, where we innovate and foster developments in low-
+carbon, sustainable, and smart construction materials. Our multidisciplinary team is dedicated to
+reducing the environmental footprint of construction materials and revolutionizing the construction
+industry.
 
-An engaging 1-3 sentence description of your lab.
+## Mission
+Our mission is to spearhead the research and development of sustainable construction materials that
+are not only environment-friendly but also possess superior qualities such as durability, resilience, and
+energy efficiency.
+
+## Vision
+A world where construction materials are sustainable, smart, and contribute to a greener planet.
 
 {% include section.html %}
 
