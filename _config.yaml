@@ -1,72 +1,15 @@
 # site properties and page defaults
-title: MaterialX Innovation Hub
+title: yemiadesina
 subtitle: 
-description: A world where construction materials are sustainable, smart, and contribute to a greener planet.
+description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: adesina1@uwindsor.ca
+  email: contact@yemiadesina.com
   orcid: 0000-0001-8713-9213
-  google-scholar: yNbGTu4AAAAJ
-  # github: yemiadesina
-  # twitter: yemiadesina
-  # youtube: yemiadesina
-
-### jekyll settings
-
-# front matter defaults
-defaults:
-  # all markdown files
-  - scope:
-      path: ""
-    values:
-      layout: default
-  # markdown files in /_members
-  - scope:
-      type: "members"
-    values:
-      layout: member
-  # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
-
-collections:
-  # generate page for each member
-  members:
-    output: true
-  # generate page for each post
-  posts:
-    output: true
-
-# jekyll plugins
-plugins:
-  - jekyll-spaceship
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-feed
-  - jekyll-last-modified-at
-
-# code block syntax highlighting
-highlighter: rouge
-
-# jekyll theme
-theme: null
-
-# sass settings
-sass:
-  sass_dir: _styles
-
-# force jekyll to include certain files/folders
-include:
-  - _styles
-  - _scripts
-
-# force jekyll to exclude certain files/folders
-exclude:
-  - README.md
-  - LICENSE.md
-  - CITATION.cff
+  google-scholar: ETJoidYAAAAJ
+  github: yemiadesina
+  twitter: yemiadesina
+  youtube: yemiadesina
